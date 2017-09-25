@@ -1,0 +1,6 @@
+debian/bin/arepacoin-qt usr/bin
+arepacoin-qt usr/lib/arepacoin
+share/pixmaps/arepacoin32.xpm usr/share/pixmaps
+share/pixmaps/arepacoin80.xpm usr/share/pixmaps
+debian/arepacoin-qt.desktop usr/share/applications
+debian/arepacoin-qt.protocol usr/share/kde4/services/
