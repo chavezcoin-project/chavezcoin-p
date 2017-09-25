@@ -7,21 +7,21 @@
 class Distribution
 {
 protected:
-    CBitcoinAddress addrArepacoin;
+    CBitcoinAddress addrArepashares;
     int64 nBalance;
 
     CArepacoinAddress addrArepacoin;
     double dDividendAmount;
 
 public:
-    Distribution(CBitcoinAddress addrArepacoin, int64 nBalance, double dDividendAmount)
-        : addrArepacoin(addrArepacoin), nBalance(nBalance), addrArepacoin(addrArepacoin), dDividendAmount(dDividendAmount)
+    Distribution(CBitcoinAddress addrArepashares, int64 nBalance, double dDividendAmount)
+        : addrArepashares(addrArepashares), nBalance(nBalance), addrArepacoin(addrArepashares), dDividendAmount(dDividendAmount)
     {
     }
 
     const CBitcoinAddress GetPeershareAddress() const
     {
-        return addrArepacoin;
+        return addrArepashares;
     }
 
     int64 GetBalance() const
